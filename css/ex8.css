@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* nav ul {
+    display: flex;
+    background-color: antiquewhite;
+}
+nav ul li {
+    padding: .25rem 0rem;
+
+}
+
+nav ul li:last-child {
+    border-right: 0px;
+}
+
+
+
+nav ul li a{
+    
+    display: block;
+    padding: 1rem 10rem;
+    text-decoration: none;
+    color:rgb(219, 144, 45);
+    /* border-right: 1px solid rebeccapurple; */
+/* } */
+
+/* nav ul li a:hover{
+    background-color: rgb(130, 196, 235);
+    padding: 1rem 11rem;
+} */ 
+
+html,body{
+    font-size: 16px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(243, 200, 150);
+    display: block;
+    padding: .5rem;
+}
+
+nav{
+    background-color: aqua;
+}
+
+nav ul{
+    height: 0; 
+}
+
+nav ul li{
+    border-bottom: 1px solid white;
+}
+
+.icon-menu{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+nav > div {
+    width: 100%;
+    background-color:brown ;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-menu span {
+    height: 5px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    /* position: absolute; */
+}
+.icon-menu:hover{
+    cursor: pointer;
+}
+
+.icon-menu:hover span{
+    background-color: antiquewhite;
+}
+.icon-menu:hover span:nth-child(2){
+    display: none;
+}
+
+.icon-menu:hover span:nth-child(1){
+    transform: rotate(45deg);
+}
+
+.icon-menu:hover span:nth-child(3){
+    transform: rotate(-45deg);
+    position: absolute;
+}
+
+nav ul{
+    display: none;
+}
+
+nav > div:hover + ul{
+    display: block;
+    height: 100%;
+}

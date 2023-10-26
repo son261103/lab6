@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+}
+
+@media screen and (min-width: 800px) {
+    body{
+        background-color: aquamarine;
+    }
+}
+  
+@media screen and (min-width: 1200px) {
+    body{
+        background-color: rgb(255, 178, 127);
+    }
+}
+@media screen and (min-width: 1600px) {
+    body{
+        background-color: rgb(255, 127, 234);
+    }
+  }
+
+/* @media screen and (min-width: 800px) {
+    body{
+        background-color: aquamarine;
+    }
+}
+  
+@media screen and (min-width: 1200px) {
+    body{
+        background-color: rgb(255, 178, 127);
+    }
+}
+ */
