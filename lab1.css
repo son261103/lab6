@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Serif', serif;
+}
+html,body{
+    margin: 1rem;
+    margin: 1rem;
+}
+
+.logo img{
+    width: 5rem;
+    height: 3rem;
+}
+
+.header {
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 0;
+    margin: 10px 6.88rem;
+    font-weight: bold;
+}
+.menu li a{
+    text-decoration: none;
+    display: block;
+    
+}
+.menu li .eng{
+    color: rgb(0, 0, 0);
+}
+
+.menu li:hover a{
+    background-color: rgb(243, 199, 169);
+}
+
+.menu li:hover .eng{
+    backdrop-color: rgb(173, 250, 207);
+    color:rgb(240, 231, 105);
+    text-decoration:underline;
+}
+
+/* ------------------------------------------ */
+.row .col{
+    display: flex;
+    margin: 5rem;
+}
+
+.col .content{
+    margin: auto;
+}
+.content .gach{
+    font-size: 70px;
+}
+
+
+.col div span{
+    color: navy;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.col div p{
+    color: navy;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.col div .button1{
+    background-color: navy;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* ------------------------------------------------------- */
+.footer {
+    display: inline-block;
+}
+.footer img{
+    width: 5rem;
+    height: 3rem;
+}
+.menuf li{
+    list-style: none;
+    display: inline-flex;
+    margin: 10px 3rem;
+    font-weight: bold;
+}
+.menu li a{
+    text-decoration: none;
+    display: block;
+    
+}
+
+.footer .contact {
+    margin-left: 0;
+}
+
+/* --------------------------------------- */
+@media screen and (max-width: 1600px) {
+    body{
+        background-color: rgb(255, 127, 234);
+    }
+    /* 5 item */
+    .col{
+        width: 20%;
+    }
+    .container{
+        margin: 1rem 5%;
+    }   
+  }
+
+@media screen and (max-width: 1024px) {
+    body{
+        background-color: aquamarine;
+    }
+    /* 4 item */
+    .col{
+        width: 25%;
+    }
+    .container{
+        margin: 1rem ;
+        
+    }   
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        background-color: rgb(255, 178, 127);
+    }
+    /* 3 item */
+    .col{
+        width: 33.3333333%;
+    }
+    .container{
+        margin: 1rem;
+        
+    }   
+}
+
+@media screen and (max-width: 568px) {
+    body{
+        background-color: rgb(255, 178, 127);
+    }
+    .col{
+        width: 50%;
+    }
+    .container{
+        margin: .5rem ;
+    }   
+    /* 2 item */
+}
+
+@media screen and (max-width: 412px) {
+    body{
+        background-color: rgb(255, 178, 127);
+    }
+    /* 1 item */
+    .col{
+        width: 100%;
+    }
+    .container{
+        margin: .5rem ;
+    }   
+}
+
+
+
+
+
+
